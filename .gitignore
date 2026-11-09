@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+**/node_modules/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+.eggs/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Pytest & Testing
+.pytest_cache/
+**/.pytest_cache/
+.coverage
+coverage/
+htmlcov/
+backend/htmlcov/
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Archives and user data
+*.zip
+*.tar.gz
+*.rar
+uploads/
+temp/
+exports/
+backend/uploads/
+backend/temp/
+backend/exports/
+
+# Build outputs
+frontend/dist/
+
+# Logs
+*.log
